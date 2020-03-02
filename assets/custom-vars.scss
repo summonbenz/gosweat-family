@@ -1,0 +1,13 @@
+//out: false
+
+// Define your variable overrides here
+$enable-shadows: true;
+$enable-gradients: true;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 456px,
+  md: 789px,
+  lg: 999px,
+  xl: 1234px
+);
+$bv-enable-table-stacked: false;
