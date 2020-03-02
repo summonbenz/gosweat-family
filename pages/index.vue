@@ -30,8 +30,8 @@ export default {
 
 // General style overrides and custom classes
 body
-  background: #000;
-  color:#fff
+  background: $black;
+  color: $white;
   margin: 0
 .my-widget
   color: var(--danger);
