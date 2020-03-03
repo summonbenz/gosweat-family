@@ -1,0 +1,57 @@
+//out: false
+
+// General style overrides and custom classes
+body {
+  background: $black;
+  color: $white;
+  margin: 0
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Maledpan';
+}
+h4{
+  font-size: 1em;
+}
+
+.playlist{
+  align-items:center;
+}
+
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.slide-box{
+  .hooper-slide{
+    padding: 10px;
+    .img img{
+      width:100%;
+      height: auto;
+      overflow: hidden;
+    }
+    .title{
+      font-family: 'Maledpan';
+      font-size: 1.5em;
+    }
+  }
+}

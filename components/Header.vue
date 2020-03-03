@@ -10,7 +10,9 @@
           <b-nav-item href="#">
             Home
           </b-nav-item>
-          <!-- <b-nav-item href="#">Member</b-nav-item> -->
+          <b-nav-item href="#">
+            Submit Link
+          </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

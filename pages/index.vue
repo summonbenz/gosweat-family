@@ -3,6 +3,10 @@
     <Header />
     <div class="container">
       testsdadsa
+      <Playlist title="Official MV" />
+      <Playlist title="Fanmade MV" />
+      <Playlist title="TV Show" />
+      <Playlist title="Fancam" />
     </div>
   </div>
 </template>
@@ -10,29 +14,21 @@
 <script>
 // import Logo from '~/components/Logo.vue'
 import Header from '~/components/Header.vue'
-
+import Playlist from '~/components/Playlist.vue'
 export default {
   components: {
     // Logo,
-    Header
+    Header,
+    Playlist
   }
 }
 </script>
 
-<style lang="sass">
-// Import custom SASS variable overrides, or alternatively
-// define your variable overrides here instead
+<style lang="scss">
 @import 'assets/custom-vars.scss';
 
-// Import Bootstrap and BootstrapVue source SCSS files
 @import '~bootstrap/scss/bootstrap.scss';
 @import '~bootstrap-vue/src/index.scss';
 
-// General style overrides and custom classes
-body
-  background: $black;
-  color: $white;
-  margin: 0
-.my-widget
-  color: var(--danger);
+@import 'assets/theme.scss';
 </style>
